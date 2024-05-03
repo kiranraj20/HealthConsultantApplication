@@ -1,0 +1,95 @@
+.sidebar{
+  position:fixed;
+  height: 100%;
+  top: 60px;
+  width: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar .p{
+  margin: 5px;
+  padding: 0;
+  font-size:small;
+  font-weight: bold;
+  color: darkgrey;
+}
+
+.dashboard-option,.process-option{
+  margin: 1px 0px;
+  width: 110px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:small;
+  font-weight: bold;
+  color: darkslategrey;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.dashboard-option-top,.process-option-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 1px 0px;
+  width: 110px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:small;
+  font-weight: bold;
+  color: darkslategrey;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.dashboard-option-bottom,.process-option-bottom{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 1px 0px;
+  width: 110px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:small;
+  font-weight: bold;
+  color: darkslategrey;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.dashboard-option:hover,.process-option:hover{
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+.dashboard-option-top:hover,.process-option-top:hover{
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+.dashboard-option-bottom:hover,.process-option-bottom:hover{
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+
+.option-clicked{
+  color: white;
+  background-color: green;
+}
+.option-clicked:hover{
+  background-color: green;
+}
+
+.body-container{
+  display: flex;
+  width: 100%;
+  background-color: lightcyan;
+  padding: 0px 0px;
+}
+.body{
+  margin: 0px 10px;
+  width: calc(98% - 150px);
+  top: 60px;
+  position: relative;
+  left: 150px;
+}

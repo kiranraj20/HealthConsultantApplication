@@ -1,0 +1,41 @@
+.button {
+  position: sticky;
+  padding: 15px 20px;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: lightcyan;
+  cursor: pointer;
+  top: -13px;
+  z-index: 1; /* Set a higher z-index value */
+  color: darkslategrey;
+}
+.button:hover{
+  background-color: rgb(179, 190, 200);
+}
+
+.menu-open {
+  visibility: visible;
+  position: absolute;
+  background-color: lightcyan;
+  list-style-type: none;
+  border-radius: 7px;
+  padding: 5px 0px;
+  top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  z-index: 2; /* Ensure a higher z-index value than the button */
+}
+
+
+.option{
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.option:hover{
+  background-color: rgb(179, 190, 200);
+}
+
+.menu-close{
+  visibility: hidden;
+}
